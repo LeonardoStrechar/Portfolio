@@ -12,11 +12,11 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },  
-    },
-    colors: {
-      BlackRussian: '08080A',
-      Amaranth: 'F5204F'
+      },
+      colors: {
+        blackRussian: '#08080A',
+        amaranth: '#F5204F'
+      }
     }
   },
   plugins: [],
