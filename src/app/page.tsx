@@ -1,11 +1,15 @@
+import { About } from "./components/about/about";
 import { Header } from "./components/header/header";
 import { Home } from "./components/home/home";
+import { SideInfo } from "./components/sideInfo/sideInfo";
 
 export default function Content(){
   return (
     <div className="flex flex-col justify-center">
       <Header/>
-      <Home />
+      <Home/>
+      <SideInfo/>
+      <About/>
     </div>
   )
 }
