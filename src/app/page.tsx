@@ -10,7 +10,7 @@ export default function Content(){
     <div className="flex flex-col justify-center">
       <Header/>
       <Home/>
-      {/* <SideInfo/> */}
+      <SideInfo/>
       <About/>
       <Technologies />
       <Teste />
