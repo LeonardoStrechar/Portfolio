@@ -3,22 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/css-modules": "^1.0.3",
     "@types/node": "20.5.0",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.15",
+    "infinite-react-carousel": "^1.2.11",
     "next": "13.4.15",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "star-field-canvas": "tdous/star-field-canvas",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
   }
 }
-
