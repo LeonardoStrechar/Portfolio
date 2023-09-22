@@ -1,4 +1,4 @@
-import styles from "./style.css";
+import styles from './style.css';
 
 export function Technologies() {
   const images_1 = [
