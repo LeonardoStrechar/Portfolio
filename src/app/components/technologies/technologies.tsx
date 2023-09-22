@@ -4,9 +4,16 @@ export function Technologies() {
   const images_1 = [
     "icon-aws.svg",
     "icon-javascript.svg",
-    "icon-linkedin-white.svg",
-    "icon-linkedin-white.svg",
-    "icon-linkedin-white.svg",
+    "icon-html.svg",
+    "icon-css.svg",
+    "icon-typescript.svg",
+    "icon-node.svg",
+    "icon-express.svg",
+    "icon-graphql.svg",
+    "icon-react.svg",
+    "icon-nextjs.svg",
+    "icon-tailwind.svg",
+    "icon-bootstrap.svg"
   ];
 
   const images_2 = [
