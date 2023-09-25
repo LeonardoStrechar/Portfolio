@@ -11,17 +11,20 @@ export function Technologies() {
     "icon-express.svg",
     "icon-graphql.svg",
     "icon-react.svg",
-    "icon-nextjs.svg",
-    "icon-tailwind.svg",
-    "icon-bootstrap.svg"
+    "icon-postgresql.svg"
   ];
 
   const images_2 = [
-    "icon-javascript.svg",
-    "icon-aws.svg",
-    "icon-linkedin-white.svg",
-    "icon-linkedin-white.svg",
-    "icon-linkedin-white.svg",
+    "icon-nextjs.svg",
+    "icon-tailwind.svg",
+    "icon-bootstrap.svg",
+    "icon-styled-components.svg",
+    "icon-docker.svg",
+    "icon-mysql.svg",
+    "icon-stripe.svg",
+    "icon-shopify.svg",
+    "icon-figma.svg",
+    "icon-gcp.svg"
   ];
 
   return (
