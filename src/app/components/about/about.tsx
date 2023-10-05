@@ -5,7 +5,6 @@ export function About (){
 
   const [hoverImage, setHoverImage] = useState(false)
   const [hoverText, setHoverText] = useState(false)
-  console.log("gover", hoverText)
 
   useEffect(() => {
 
