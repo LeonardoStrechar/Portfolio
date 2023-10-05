@@ -1,6 +1,22 @@
+'use client';
+
+import { useState } from 'react';
 import styles from './style.css';
+import { textTech } from './text-tech';
 
 export function Technologies() {
+
+  const [nameImage, setNameImage] = useState('numero 1')
+
+  const getNameImage = (i: any) => {
+    const content = textTech.filter(function(el) {
+      return el.id = i
+    })
+
+    setNameImage(content[0].content)
+  }
+
+
   const images_1 = [
     "icon-aws.svg",
     "icon-javascript.svg",
@@ -36,46 +52,52 @@ export function Technologies() {
       <div className="w-full flex items-center justify-center mt-6">
         <div className="w-[200%] h-28 overflow-hidden relative">
           <div className={styles.animate}>
-            <div className="w-[200%] flex items-center justify-between lg:justify-evenly absolute left-0 animatee">
+            <div className="w-[200%] flex items-center justify-between lg:justify-evenly absolute left-0 animatee gap-3 lg:gap-0">
               {images_1.map((i) => {
                 return (
-                  <div className="flex justify-center w-20 h-20 lg:w-28 lg:h-28 p-4 border-amaranth border-2 rounded-[10px] lg:rounded-[25px]">
-                    <img src={i} />
-                  </div>
+                  <button key={i} onClick={() => getNameImage(i)} className="flex justify-center items-center w-20 h-20 lg:w-24 lg:h-24 p-4 border-amaranth border-2 cursor-pointer hover:bg-gray-300 focus:bg-white rounded-[10px] lg:rounded-[25px]">
+                    <img className='min-w-[30px] w-full max-w-[70px] h-16' src={i}/>
+                  </button>
                 );
               })}
               {images_1.map((i) => {
                 return (
-                  <div className="flex justify-center w-20 h-20 lg:w-28 lg:h-28 p-4 border-amaranth border-2 rounded-[10px] lg:rounded-[25px]">
-                    <img src={i} />
-                  </div>
+                  <button key={i} onClick={() => getNameImage(i)} className="flex justify-center items-center w-20 h-20 lg:w-24 lg:h-24 p-4 border-amaranth border-2 cursor-pointer  hover:bg-gray-300 focus:bg-white rounded-[10px] lg:rounded-[25px]">
+                    <img className='min-w-[30px] w-full max-w-[70px] h-16' src={i} />
+                  </button>
                 );
               })}
             </div>
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center">
+      <div className="w-full flex items-center justify-center mt-0 lg:mt-6">
         <div className="w-[200%] h-28 overflow-hidden relative">
           <div className={styles.animate}>
-            <div className="w-[200%] flex items-center justify-between lg:justify-evenly absolute left-0 animatea">
+            <div className="w-[200%] flex items-center justify-between lg:justify-evenly absolute left-0 animatea gap-3 lg:gap-0">
               {images_2.map((i) => {
                 return (
-                  <div className="flex justify-center w-20 h-20 lg:w-28 lg:h-28 p-4 border-amaranth border-2 rounded-[10px] lg:rounded-[25px]">
-                    <img src={i} />
-                  </div>
+                  <button key={i} onClick={() => getNameImage(i)} className="flex justify-center items-center w-20 h-20 lg:w-24 lg:h-24 p-4 border-amaranth border-2 cursor-pointer hover:bg-gray-300 focus:bg-white rounded-[10px] lg:rounded-[25px]">
+                    <img className='min-w-[30px] w-full max-w-[70px] h-16' src={i}/>
+                  </button>
                 );
               })}
               {images_2.map((i) => {
                 return (
-                  <div className="flex justify-center w-20 h-20 lg:w-28 lg:h-28 p-4 border-amaranth border-2 rounded-[10px] lg:rounded-[25px]">
-                    <img src={i} />
-                  </div>
+                  <button key={i} onClick={() => getNameImage(i)} className="flex justify-center items-center w-20 h-20 lg:w-24 lg:h-24 p-4 border-amaranth border-2 cursor-pointer hover:bg-gray-300 focus:bg-white rounded-[10px] lg:rounded-[25px]">
+                    <img className='min-w-[30px] w-full max-w-[70px] h-16' src={i} />
+                  </button> 
                 );
               })}
             </div>
           </div>
         </div>
+      </div>
+      <div className='w-full flex flex-col items-center justify-center px-10 py-10 gap-4'>
+          <p className="text-amaranth opacity-40 hover:opacity-100 ease-linear cursor-pointer max-w-56 text-center lg:w-full">Clique em uma tecnologia</p>
+          <div className="border border-amaranth rounded-[33px] max-w-[350px] w-full h-96 p-3">
+            <p className="text-white">{nameImage}</p>
+          </div>
       </div>
     </div>
   );
