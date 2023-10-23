@@ -1,3 +1,4 @@
+import style from './style.css'
 export function Certificate() {
   const images_1 = [
     "certificates/certificado-docker.jpeg",

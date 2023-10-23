@@ -4,6 +4,9 @@ import { Home } from "./components/home/home";
 import { SideInfo } from "./components/sideInfo/sideInfo";
 import { Technologies } from "./components/technologies/technologies";
 import { Certificate } from "./components/certificates/certificates";
+import Projects from "./components/projects/project";
+import Contact from "./components/contact/contact";
+import Footer from "./components/footer/footer";
 
 export default function Content(){
   return (
@@ -14,6 +17,9 @@ export default function Content(){
       <About/>
       <Technologies />
       <Certificate />
+      {/* <Projects /> */}
+      <Contact />
+      <Footer />
     </div>
   )
 }
