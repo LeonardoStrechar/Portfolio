@@ -59,9 +59,6 @@ export function About (){
           }
         </div>
       </div>
-      {/* <div className="absolute">
-        <img className="bg-red-600" src="pointer.svg" alt="pointer" />
-      </div> */}
       {/* formas geometricas background */}
       <div className="absolute top-[900px] right-96 z-[-10]">
         <img src="retangulo.svg" alt="retangulo" />
