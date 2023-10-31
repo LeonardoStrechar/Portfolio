@@ -17,7 +17,7 @@ export function Certificate() {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center my-10">
+    <div className="w-full flex flex-col items-center mt-5 lg:mt-10 " >
       <div className="w-full text-center flex flex-col items-center">
         <p className="text-amaranth text-xl mb-1">Certificates</p>
         <img src="linear-line.svg" alt="linear line" />
@@ -32,7 +32,7 @@ export function Certificate() {
                   className="flex justify-center ease-in-out duration-500 items-center w-72 hover:min-w-96 h-48 hover:h-64 p-4 border-amaranth border-2 cursor-pointer hover:bg-amaranth focus:bg-amaranth rounded-[10px] lg:rounded-[25px]"
                 >
                   <img
-                    className="min-w-[250px] ease-in-out duration-500 hover:min-w-[400px] w-full h-full z-10 hover:z-50"
+                    className="min-w-[250px] ease-in-out duration-500 hover:min-w-[400px] w-full h-full z-10 hover:z-20"
                     src={i}
                   />
                 </div>
