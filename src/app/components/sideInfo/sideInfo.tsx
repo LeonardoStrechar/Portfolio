@@ -31,7 +31,7 @@ export function SideInfo (){
   
   return (
     <div className="hidden lg:flex ">
-    <div className="text-white fixed z-20 top-0 left-0 h-full border-r-amaranth border-r-[1px] p-2 bg-gradient-to-b from-amaranth to-blackRussian">
+    <div className="text-white fixed z-30 top-0 left-0 h-full border-r-amaranth border-r-[1px] p-2 bg-gradient-to-b from-amaranth to-blackRussian">
       <div className="flex flex-col text-center justify-center h-full max-w-[20px] md:max-w-[40px]">
         <div className="h-full flex items-start justify-center">
           <img src="LS.svg" alt="Logo leonardo Strechar"/>
