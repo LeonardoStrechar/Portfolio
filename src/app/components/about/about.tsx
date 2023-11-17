@@ -52,10 +52,10 @@ export function About (){
             </div>
           </div>
           {!hoverText && 
-            <p className="max-w-xs border border-amaranth px-12 py-8 rounded-3xl text-center">Sou Desenvolvedor de sistemas web com mais de 5 anos de experiência, desde pequeno sempre fui apaixonado por tecnologia e apesar de nascer no interior e trabalhar por muito tempo com agricultura, nunca deixei essa paixão de lado e hoje virou minha realidade!</p>
+            <p className="max-w-xs min-h-[360px] border border-amaranth px-12 py-8 rounded-3xl text-center">Profissional ágil, focado em seguir as tendências e inovações tecnológicas. Capacitado para desenvolver trabalhos em equipe, dotado de excelente relacionamento interpessoal e comunicação. Capaz de entender, analisar, levantar requisitos e desenhar soluções para aplicações de pequeno, médio e grande porte.</p>
           } 
           {hoverText && 
-            <p className="max-w-xs border bg-white text-black border-amaranth px-12 py-8 rounded-3xl text-center">Sou Desenvolvedor de sistemas web com mais de 5 anos de experiência, desde pequeno sempre fui apaixonado por tecnologia e apesar de nascer no interior e trabalhar por muito tempo com agricultura, nunca deixei essa paixão de lado e hoje virou minha realidade!</p>
+            <p className="max-w-xs min-h-[360px] h-full border bg-white text-black border-amaranth px-12 py-8 rounded-3xl text-center">Além da tecnologia, tenho um amor enorme por plantas, especialmente pelas suculentas. Adoro plantar, cuidar, regar e testemunhar seu crescimento, assim como vejo meus projetos evoluírem e prosperarem no meu trabalho diário.</p>
           }
         </div>
       </div>
