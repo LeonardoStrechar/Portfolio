@@ -6,7 +6,7 @@ import { textTech } from './text-tech';
 
 export function Technologies() {
 
-  const [nameImage, setNameImage] = useState('numero 1')
+  const [nameImage, setNameImage] = useState('Selecione uma tecnologia')
 
   const getNameImage = (i: any) => {
     const content = textTech.filter(function(el) {
@@ -14,7 +14,6 @@ export function Technologies() {
     })
     setNameImage(content[0].content)
   }
-
 
   const images_1 = [
     "icon-aws.svg",
@@ -93,7 +92,6 @@ export function Technologies() {
         </div>
       </div>
       <div className='w-full flex flex-col items-center justify-center px-10 py-10 gap-4'>
-          <p className="text-amaranth opacity-40 hover:opacity-100 ease-linear cursor-pointer max-w-56 text-center lg:w-full">Clique em uma tecnologia</p>
           <div className="border border-amaranth rounded-[33px] max-w-[350px] w-full h-96 p-3">
             <p className="text-white">{nameImage}</p>
           </div>
