@@ -10,9 +10,8 @@ export function Technologies() {
 
   const getNameImage = (i: any) => {
     const content = textTech.filter(function(el) {
-      return el.id = i
+      return i == el.id ? el.content : null
     })
-
     setNameImage(content[0].content)
   }
 
