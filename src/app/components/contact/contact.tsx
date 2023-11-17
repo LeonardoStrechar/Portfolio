@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="flex justify-center w-full text-white mb-10">
+    <div id="contact" className="flex justify-center w-full text-white mb-10">
       <div className="flex flex-col lg:flex-row max-w-5xl w-full items-center">
         <div className="flex flex-col w-full items-center">
           <div className="text-start max-w-xs w-full flex flex-col gap-3">
@@ -28,9 +28,9 @@ export default function Contact() {
           </div>
         </div>
         <div className="flex flex-col items-center w-full pt-5 lg:pt-0">
-          <p className="text-amaranth text-[25px]">Let's work together?</p>
-          <p className="text-amaranth text-[25px] pl-0 lg:pl-8 opacity-50">Let's work together?</p>
-          <p className="text-amaranth text-[25px] pl-0 lg:pl-16 opacity-30">Let's work together?</p>
+          <p className="text-amaranth text-[25px] hover:text-[27px] duration-500">Let's work together?</p>
+          <p className="text-amaranth text-[25px] hover:text-[27px] duration-500 pl-0 lg:pl-8 opacity-50 hover:opacity-100">Let's work together?</p>
+          <p className="text-amaranth text-[25px] hover:text-[27px] duration-500 pl-0 lg:pl-16 opacity-30 hover:opacity-100">Let's work together?</p>
         </div>
       </div>
     </div>

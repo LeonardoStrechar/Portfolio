@@ -1,6 +1,6 @@
 export function Home (){
   return (
-    <div className=" flex w-full justify-center py-24">
+    <div id="home" className=" flex w-full justify-center py-24">
       <div className="flex flex-col lg:flex-row items-center w-full gap-6 max-w-5xl z-10"> 
         <div className="flex flex-col gap-16 w-full">
           <div className="text-center lg:text-start">
