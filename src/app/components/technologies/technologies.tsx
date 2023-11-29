@@ -75,14 +75,14 @@ export function Technologies() {
             <div className="w-[200%] flex items-center justify-between lg:justify-evenly absolute left-0 animatea gap-3 lg:gap-0">
               {images_2.map((i) => {
                 return (
-                  <button key={i} onClick={() => getNameImage(i)} className="flex justify-center items-center w-20 h-20 lg:w-24 lg:h-24 p-4 border-amaranth border-2 cursor-pointer hover:bg-gray-300 focus:bg-white rounded-[10px] lg:rounded-[25px]">
+                  <button key={i} onClick={() => getNameImage(i)} className="flex justify-center items-center w-20 h-20 lg:w-24 lg:h-24 p-4 border-amaranth border-2 cursor-pointer hover:bg-gray-300 focus:bg-white rounded-[10px] lg:rounded-[25px] duration-200">
                     <img className='min-w-[30px] w-full max-w-[70px] h-16' src={i}/>
                   </button>
                 );
               })}
               {images_2.map((i) => {
                 return (
-                  <button key={i} onClick={() => getNameImage(i)} className="flex justify-center items-center w-20 h-20 lg:w-24 lg:h-24 p-4 border-amaranth border-2 cursor-pointer hover:bg-gray-300 focus:bg-white rounded-[10px] lg:rounded-[25px]">
+                  <button key={i} onClick={() => getNameImage(i)} className="flex justify-center items-center w-20 h-20 lg:w-24 lg:h-24 p-4 border-amaranth border-2 cursor-pointer hover:bg-gray-300 focus:bg-white rounded-[10px] lg:rounded-[25px] duration-200">
                     <img className='min-w-[30px] w-full max-w-[70px] h-16' src={i} />
                   </button> 
                 );
@@ -93,7 +93,7 @@ export function Technologies() {
       </div>
       <div className='w-full flex flex-col items-center justify-center px-10 py-10 gap-4'>
           <div className="border border-amaranth rounded-[33px] max-w-[350px] w-full h-96 p-3">
-            <p className="text-white">{nameImage}</p>
+            {nameImage == "Selecione uma tecnologia" ? <p className="text-white text-center opacity-50">{nameImage}</p> : <p className="text-white">{nameImage}</p>}
           </div>
       </div>
     </div>

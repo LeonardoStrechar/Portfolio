@@ -45,17 +45,21 @@ export function About (){
             </button>
           </a>
         </div>
-        <div className="flex flex-col items-center lg:flex-row justify-center w-full pt-16">
+        <div className="flex flex-col items-center lg:flex-row justify-center w-full pt-16 ">
           <div className="flex items-center">
-            <div id="button_about_me" className="border border-amaranth bg-blackRussian hover:bg-white hover:text-black hover:rotate-[-405deg] rounded-xl py-12 px-6 origin-center rotate-[-45deg] ease-in duration-300">
+            <div id="button_about_me" className="-ml-28 border border-amaranth bg-blackRussian hover:bg-white hover:text-black hover:rotate-[-405deg] rounded-xl py-12 px-6 origin-center rotate-[-45deg] ease-in duration-300">
               <p className="origin-center rotate-45">About me</p>
             </div>
           </div>
           {!hoverText && 
-            <p className="max-w-xs min-h-[360px] border border-amaranth px-12 py-8 rounded-3xl text-center">Profissional ágil, focado em seguir as tendências e inovações tecnológicas. Capacitado para desenvolver trabalhos em equipe, dotado de excelente relacionamento interpessoal e comunicação. Capaz de entender, analisar, levantar requisitos e desenhar soluções para aplicações de pequeno, médio e grande porte.</p>
+            <div className="max-w-xs min-h-[360px] border border-amaranth px-12 py-8 rounded-3xl text-center "> 
+              <p className="">Profissional ágil, focado em seguir as tendências e inovações tecnológicas. Capacitado para desenvolver trabalhos em equipe, dotado de excelente relacionamento interpessoal e comunicação. Capaz de entender, analisar, levantar requisitos e desenhar soluções para aplicações de pequeno, médio e grande porte.</p>
+            </div>
           } 
           {hoverText && 
-            <p className="max-w-xs min-h-[360px] h-full border bg-white text-black border-amaranth px-12 py-8 rounded-3xl text-center">Além da tecnologia, tenho um amor enorme por plantas, especialmente pelas suculentas. Adoro plantar, cuidar, regar e testemunhar seu crescimento, assim como vejo meus projetos evoluírem e prosperarem no meu trabalho diário.</p>
+            <div className="max-w-xs min-h-[360px] h-full border bg-white text-black border-amaranth px-12 py-8 rounded-3xl text-center">
+              <p>Além da tecnologia, tenho um amor enorme por plantas, especialmente pelas suculentas. Adoro plantar, cuidar, regar e testemunhar seu crescimento, assim como vejo meus projetos evoluírem e prosperarem no meu trabalho diário.</p>
+            </div>
           }
         </div>
       </div>

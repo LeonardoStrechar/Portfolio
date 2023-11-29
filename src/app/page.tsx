@@ -7,6 +7,7 @@ import { Certificate } from "./components/certificates/certificates";
 import Projects from "./components/projects/project";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
+import { Experience } from "./components/experience/experience";
 
 export default function Content(){
   return (
@@ -18,6 +19,7 @@ export default function Content(){
       <Technologies />
       <Certificate />
       {/* <Projects /> */}
+      <Experience />
       <Contact />
       <Footer />
     </div>
