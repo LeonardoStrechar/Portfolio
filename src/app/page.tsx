@@ -19,7 +19,7 @@ export default function Content(){
       <Technologies />
       <Certificate />
       {/* <Projects /> */}
-      <Experience />
+      {/* <Experience /> */}
       <Contact />
       <Footer />
     </div>
