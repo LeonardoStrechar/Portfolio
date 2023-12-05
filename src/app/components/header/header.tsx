@@ -6,7 +6,7 @@ export function Header (){
   return (
     <div className="sticky top-0 w-full z-20 bg-blackRussian flex flex-col items-center">
       <div className="w-full flex justify-center gap-8 p-3 ">
-        <Link 
+        <Link
           spy={true}
           activeClass="active"
           smooth={true}
@@ -14,7 +14,8 @@ export function Header (){
           duration={1000} 
           to="home" 
           className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200">Home</Link>
-        <Link spy={true}
+        <Link 
+          spy={true}
           activeClass="active"
           smooth={true}
           offset={-70}
