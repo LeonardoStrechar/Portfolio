@@ -35,7 +35,7 @@ export function Header (){
           offset={-70}
           duration={1000} 
           to="expirence" 
-          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200">Expirence</Link>
+          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200">Experience</Link>
         <Link 
           spy={true}
           activeClass="active"
