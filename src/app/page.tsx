@@ -11,7 +11,7 @@ import { Experience } from "./components/experience/experience";
 
 export default function Content(){
   return (
-    <div data-aos="fade-up" className="flex flex-col justify-center">
+    <div data-aos="fade-up" className="flex flex-col">
       <Header/>
       <Home/>
       <SideInfo/>
@@ -19,7 +19,7 @@ export default function Content(){
       <Technologies />
       <Certificate />
       {/* <Projects /> */}
-      {/* <Experience /> */}
+      <Experience />
       <Contact />
       <Footer />
     </div>
