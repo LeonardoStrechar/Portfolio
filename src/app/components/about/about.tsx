@@ -31,7 +31,7 @@ export function About (){
     
   }, []) 
   return (
-    <div className="mb-32">
+    <div id="about" className="mb-32">
       <div className="flex flex-col items-center w-full text-white">
         <div>
           <a href="/LeonardoStrecharCV.pdf" download>
