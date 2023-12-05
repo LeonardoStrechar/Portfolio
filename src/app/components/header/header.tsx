@@ -13,14 +13,14 @@ export function Header (){
           offset={-70}
           duration={1000} 
           to="home" 
-          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200">Home</Link>
+          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200 cursor-pointer">Home</Link>
         <Link 
           spy={true}
           activeClass="active"
           smooth={true}
           offset={-70}
           duration={1000} 
-          to="about" className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200">About</Link>
+          to="about" className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200 cursor-pointer">About</Link>
         <Link
           spy={true}
           activeClass="active"
@@ -28,7 +28,7 @@ export function Header (){
           offset={-70}
           duration={1000} 
           to="technologies" 
-          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200">Technologies</Link>
+          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200 cursor-pointer">Technologies</Link>
         <Link
           spy={true}
           activeClass="active"
@@ -36,7 +36,7 @@ export function Header (){
           offset={-70}
           duration={1000} 
           to="expirence" 
-          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200">Experience</Link>
+          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200 cursor-pointer">Experience</Link>
         <Link 
           spy={true}
           activeClass="active"
@@ -44,7 +44,7 @@ export function Header (){
           offset={-70}
           duration={1000} 
           to="contact" 
-          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200">Contact</Link>
+          className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200 cursor-pointer">Contact</Link>
       </div>    
     </div>
   )
