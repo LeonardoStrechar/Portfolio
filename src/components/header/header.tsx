@@ -13,8 +13,7 @@ export function Header (){
   return (
     <div>
       <div className="sticky top-0 w-full z-20 bg-blackRussian flex flex-col items-center">
-          {/* <button className="bg-white" onClick={(e) => box(e)}>teste</button> */}
-        {/* <div className="w-full flex justify-center gap-8 p-3 ">
+        <div className="w-full justify-center gap-8 p-3 hidden md:flex ">
           <Link
             spy={true}
             activeClass="active"
@@ -54,11 +53,11 @@ export function Header (){
             duration={1000} 
             to="contact" 
             className="text-white pb-2 border-b-0 hover:border-b-[1px] hover:border-amaranth hover:text-amaranth duration-200 cursor-pointer">Contact</Link>
-        </div>     */}
+        </div>    
 
       </div>
       <div>
-        <button className="bg-none fixed right-0 pr-5 pt-5 flex lg:hidden" onClick={() => box(true)}>
+        <button className="bg-none fixed right-0 pr-5 pt-5 flex md:hidden" onClick={() => box(true)}>
           <img src="list.svg" width={30} height={30} alt="" />
         </button>
       </div> 
