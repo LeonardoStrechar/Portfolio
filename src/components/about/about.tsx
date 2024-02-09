@@ -47,7 +47,7 @@ export function About (){
         </div>
         <div className="flex flex-col items-center lg:flex-row justify-center w-full pt-16 ">
           <div className="flex items-center">
-            <div id="button_about_me" className="-ml-28 border border-amaranth bg-blackRussian hover:bg-white hover:text-black hover:rotate-[-405deg] rounded-xl py-12 px-6 origin-center rotate-[-45deg] ease-in duration-300">
+            <div id="button_about_me" className="ml-0 md:-ml-28 border border-amaranth bg-blackRussian hover:bg-white hover:text-black hover:rotate-[-405deg] rounded-xl py-12 px-6 origin-center rotate-[-45deg] ease-in duration-300">
               <p className="origin-center rotate-45">About me</p>
             </div>
           </div>
